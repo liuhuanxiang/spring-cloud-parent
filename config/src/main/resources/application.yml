@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuhuanxiang/spring-cloud.git    #git文件地址
+          username: liuhuanxiang  		 #Github账号
+          password: a13526370316a	     #GitHub账号密码

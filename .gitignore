@@ -1,0 +1,8 @@
+# Project exclude paths
+/config/target/
+/config_client_provider/target/
+/eureka_server/target/
+/server_consumer/target/
+/server_consumer_feign/target/
+/server_provider/target/
+/zuul/target/
