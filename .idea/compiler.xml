@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config_client_provider" />
+        <module name="server_consumer_ribbon" />
+        <module name="server_hystrix_consumer_feign" />
         <module name="server_consumer_feign" />
         <module name="eureka_server" />
         <module name="server_provider" />
         <module name="server_consumer" />
         <module name="zuul" />
         <module name="config" />
+        <module name="server_hystrix_provider" />
+        <module name="server_provider2" />
       </profile>
     </annotationProcessing>
   </component>

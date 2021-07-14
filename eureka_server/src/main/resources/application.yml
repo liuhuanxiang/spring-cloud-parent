@@ -6,3 +6,9 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+
+    ##就是这个要覆盖，写成自己的地址
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+#    ser
+#  eureka.client.serviceUrl.defaultZone=http://127.0.0.1:7001/eureka

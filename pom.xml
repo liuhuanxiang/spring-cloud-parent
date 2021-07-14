@@ -16,6 +16,10 @@
         <module>server_consumer_feign</module>
         <module>config</module>
         <module>config_client_provider</module>
+        <module>server_provider2</module>
+        <module>server_consumer_ribbon</module>
+        <module>server_hystrix_provider</module>
+        <module>server_hystrix_consumer_feign</module>
     </modules>
 
     <properties>
